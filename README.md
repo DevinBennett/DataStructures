@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  Author: Devin Bennett
  * Project Title: Data Structures Basic Assignment
  * Description: Using queues and dictionaries keep track of how many customers ate how many burgers and display it to the console.
- 
+ this is my change
  */
 namespace ConsoleApplication4
 {
@@ -25,7 +25,7 @@ namespace ConsoleApplication4
 
         public static int randomNumberInRange()
         {
-            return Convert.ToInt32(random.NextDouble() * 20);
+           return Convert.ToInt32(random.NextDouble() * 20);
         }
 
         static void Main(string[] args)
